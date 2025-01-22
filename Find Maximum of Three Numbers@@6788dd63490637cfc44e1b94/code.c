@@ -4,8 +4,7 @@ int main(){
     scanf("%d %d %d",&a,&b,&c);
     if(a>b && a>c){
         printf("%d",a);
-    }
-    else if(a<b && c<b){
+    }else if(a<b && c<b){
         printf("%d",b);
     }else if(a<c && b<c){
         printf("%d",c);
