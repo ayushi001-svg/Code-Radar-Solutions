@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main(){
     int age;
+    scanf("%d",&age)
     if(age>=18){
         printf("Eligible");
     }
-    else if(age<18){
+    else{
         printf("Not Eligible");
     }
     return 0;
