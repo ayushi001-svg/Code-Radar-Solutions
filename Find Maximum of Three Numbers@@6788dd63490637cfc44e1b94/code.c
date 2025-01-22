@@ -5,9 +5,9 @@ int main(){
     if(a>b && a>c){
         printf("%d",a);
     }
-    else if(b>a && b>c){
+    else if(a<b && c<b){
         printf("%d",b);
-    }else if(c>a && c>b){
+    }else if(a<c && b<c){
         printf("%d",c);
     }
     return 0;
