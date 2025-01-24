@@ -1,5 +1,4 @@
 #include <stdio.h>
-int main(){
     int main(){
         int size;
         scanf("%d",&size);
@@ -15,4 +14,3 @@ int main(){
         }
         return 0;
     }
-}
