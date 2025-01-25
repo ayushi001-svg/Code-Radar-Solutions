@@ -2,7 +2,7 @@
 int main(){
     int rows;
     for(int i=0;i<rows;i++){
-        for(char ch='A'ch<='A'+(N-i-1);ch++){
+        for(char ch='A'ch<='A'+(rows-i-1);ch++){
             printf("%c",ch);
         }
         printf("\n");
