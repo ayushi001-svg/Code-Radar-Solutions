@@ -6,7 +6,7 @@ int main(){
             printf("%d ",num);
             ++num;
         }
-        printf("/n");
+        printf("\n");
     }
     return 0;
 }
