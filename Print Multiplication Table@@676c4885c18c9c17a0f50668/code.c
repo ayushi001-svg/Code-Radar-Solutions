@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int N,i;
-    scanf("%d",&N);
-    for(i=1;i<N;i++){
-    printf("2 x %d\n",i);
+    int n,i;
+    scanf("%d",&n);
+    for(i=1;i<n;i++){
+    printf("2 x %d\n",n);
     }
     return 0;
 }
