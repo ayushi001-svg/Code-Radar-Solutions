@@ -3,17 +3,18 @@ int main(){
     int a,b;
     char op;
     scanf("%d %d %c",&a,&b,&op);
-    if(op=='+'){
-        printf("%d",a+b);
-    }
-    else if(op=='-'){
-        printf("%d",a-b);
-    }
-    else if(op=='*'){
-        printf("%d",a*b);
-    }
-    else if(op=='/'){
-        printf("%d",a/b);
-    }
-    return 0;
+    switch(op);
+    case 1: '+';
+    printf("%d",a+b);
+    break;
+    case 2: '-';
+    printf("%d",a-b);
+    break;
+    case 3: '*';
+    printf("%d",a*b);
+    break;
+    case 4: '/';
+    printf("%d",a/b);
+    break;
+    return 0
 }
