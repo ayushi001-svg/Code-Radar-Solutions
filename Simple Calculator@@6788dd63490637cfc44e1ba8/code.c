@@ -14,7 +14,7 @@ int main(){
     printf("%d",a*b);
     break;
     case  '/':
-    printf("%d",a/b);
+    printf("0.lf",a/b);
     break;
     default:
     printf("error");
