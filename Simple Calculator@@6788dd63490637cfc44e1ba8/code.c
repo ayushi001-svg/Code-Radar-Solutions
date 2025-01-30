@@ -5,10 +5,10 @@ int main(){
     scanf("%0.lf %0.lf %c",&a,&b,&op);
     switch(op){
     case '+':
-    printf("%d",a+b);
+    printf("%0.lf",a+b);
     break;
     case  '-':
-    printf("%d",a-b);
+    printf("%0.lf",a-b);
     break;
     case  '*':
     printf("%0.lf",a*b);
