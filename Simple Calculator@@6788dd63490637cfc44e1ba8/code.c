@@ -5,19 +5,19 @@ int main(){
     scanf("%lf %lf %c",&a,&b,&op);
     switch(op){
     case '+':
-    printf("%0.lf",a+b);
+    printf("%.0lf",a+b);
     break;
     case  '-':
-    printf("%0.lf",a-b);
+    printf("%.0lf",a-b);
     break;
     case  '*':
-    printf("%0.lf",a*b);
+    printf("%.0lf",a*b);
     break;
     case  '/':
     if(b=0){
         printf("error");
     }else{
-        printf("%0.lf",a/b);
+        printf("%.0lf",a/b);
     }
     break;
     }
