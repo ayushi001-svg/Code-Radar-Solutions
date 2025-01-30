@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    float a,b;
+    double a,b;
     char op;
     scanf("%lf %lf %c",&a,&b,&op);
     switch(op){
@@ -14,10 +14,12 @@ int main(){
     printf("%0.lf",a*b);
     break;
     case  '/':
-    printf("0.lf",a/b);
+    if(b=0){
+        printf("error");
+    }else{
+        printf("%0.lf",a/b);
+    }
     break;
-    default:
-    printf("error");
     return 0;
     }
-}
+    
