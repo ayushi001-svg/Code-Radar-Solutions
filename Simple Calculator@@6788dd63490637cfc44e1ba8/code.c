@@ -20,7 +20,7 @@ int main(){
         printf("%0.lf",a/b);
     }
     break;
-    return 0;
     }
+    return 0;
 }
     
