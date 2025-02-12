@@ -1,26 +1,27 @@
 // Your code here...
-#include<stdio.h>
-int isSorted(int arr[],int n){
-    int asc = 1, desc = 1;
-    for(int i = 1; i<n; i++){
-        if(arr[i]<arr[i-1]){
-            asc=0;
+#include <stdio.h>
+
+int main() {
+    int a;
+    scanf("%d\n",&a);
+    int b[a];
+    for(int i=0;i<a;i++){
+        scanf("%d ",&b[i]);
+    }
+    int z=-100;
+    int y=0;
+    for(int i=0;i<a;i++){
+        if(z<=b[i]){
+            z=b[i];
+            y++;
         }
-        of (arr[i]>arr[i-1]){
-            desc=0;
+        else{
+            printf("Not Sorted");
+            break;
         }
     }
-    if (asc) return 1;
-    if (desc) return -1;
-    return 0;
-}
-int main(){
-    int n=sizeof(arr)/sizeof(arr[0]);
-    int result = isSorted(arr,n);
-    if(result==1){
+    if(y==a){
         printf("Sorted");
-    }else if(result==-1){
-        printf("Not Sorted");
     }
     return 0;
 }
