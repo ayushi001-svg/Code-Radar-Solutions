@@ -19,7 +19,7 @@ int main(){
     int result = isSorted(arr,n);
     if(result==1){
         printf("Sorted");
-    }else{
+    }else if(result==-1){
         printf("Not Sorted");
     }
     return 0;
