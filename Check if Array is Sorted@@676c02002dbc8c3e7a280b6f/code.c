@@ -16,7 +16,8 @@ int isSorted(int arr[],int n){
 }
 int main(){
     int n=sizeof(arr)/sizeof(arr[0]);
-    if (arr==1){
+    int result = isSorted(arr,n);
+    if(result==1){
         printf("Sorted");
     }else{
         printf("Not Sorted");
