@@ -14,3 +14,12 @@ int isSorted(int arr[],int n){
     if (desc) return -1;
     return 0;
 }
+int main(){
+    int n=sizeof(arr)/sizeof(arr[0]);
+    if (arr==1){
+        printf("Sorted");
+    }else{
+        printf("Not Sorted");
+    }
+    return 0;
+}
