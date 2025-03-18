@@ -6,10 +6,8 @@ int main()
 {
     int arr[MAX_SIZE];
     int i, max, min, size;
-    printf("Enter size of the array: ");
     scanf("%d", &size);
 
-    printf("Enter elements in the array: ");
     for(i=0; i<size; i++)
     {
         scanf("%d", &arr[i]);
