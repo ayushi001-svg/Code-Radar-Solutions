@@ -5,11 +5,8 @@ int main()
     int arr[100], freq[100];
     int size, i, j, count;
 
-
-    printf("Enter size of array: ");
     scanf("%d", &size);
 
-    printf("Enter elements in array: ");
     for(i=0; i<size; i++)
     {
         scanf("%d", &arr[i]);
@@ -43,7 +40,7 @@ int main()
     {
         if(freq[i] != 0)
         {
-            printf("%d %d", arr[i], freq[i]);
+            printf("%d %d\n", arr[i], freq[i]);
         }
     }
 
