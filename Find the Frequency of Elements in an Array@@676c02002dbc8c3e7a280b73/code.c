@@ -34,8 +34,6 @@ int main()
         }
     }
 
-
-    printf("\nFrequency of all elements of array : \n");
     for(i=0; i<size; i++)
     {
         if(freq[i] != 0)
