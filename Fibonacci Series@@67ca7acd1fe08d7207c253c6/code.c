@@ -1,6 +1,5 @@
 #include<stdio.h> 
-int fibonacciSeries(int); 
-int main () 
+int fibonacciSeries(int);  
 { 
 int n,f; 
 printf("Enter the value of n?"); 
