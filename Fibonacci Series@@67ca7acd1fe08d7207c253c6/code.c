@@ -2,11 +2,13 @@
 int fibonacciSeries(int);  
 { 
 int n,f; 
+{
 printf("Enter the value of n?"); 
 scanf("%d",&n); 
 f = fibonacciSeries(n); 
 printf("%d",f); 
 } 
+}
 int fibonacciSeries (int n) 
 { 
 if (n==0) 
