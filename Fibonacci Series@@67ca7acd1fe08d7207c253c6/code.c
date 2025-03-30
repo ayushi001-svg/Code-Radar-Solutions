@@ -1,14 +1,14 @@
 #include<stdio.h> 
-int fibonacci(int); 
+int fibonacciSeries(int); 
 void main () 
 { 
 int n,f; 
 printf("Enter the value of n?"); 
 scanf("%d",&n); 
-f = fibonacci(n); 
+f = fibonacciSeries(n); 
 printf("%d",f); 
 } 
-int fibonacci (int n) 
+int fibonacciSeries (int n) 
 { 
 if (n==0) 
 { 
